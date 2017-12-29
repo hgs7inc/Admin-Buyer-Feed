@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  resources :products
+  resources :materials
+  resources :suppliers
+  resources :dailyfeatureds
+  resources :users
   resources :articles
   resources :admin_users
   namespace 'api' do
