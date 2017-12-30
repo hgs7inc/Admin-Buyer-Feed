@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Admin-Feed---Buyer-Feed
 Admin and buyer feed using react and rails framework
 =======
@@ -26,4 +26,4 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
->>>>>>> First commit
+
