@@ -1,0 +1,37 @@
+<%= form_with(model: dailyfeatured, local: true) do |form| %>
+  <% if dailyfeatured.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(dailyfeatured.errors.count, "error") %> prohibited this dailyfeatured from being saved:</h2>
+
+      <ul>
+      <% dailyfeatured.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :headline %>
+    <%= form.text_field :headline, id: :dailyfeatured_headline %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description %>
+    <%= form.text_area :description, id: :dailyfeatured_description %>
+  </div>
+
+  <div class="field">
+    <%= form.label :material_id %>
+    <%= form.text_field :material_id, id: :dailyfeatured_material_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :supplier_id %>
+    <%= form.text_field :supplier_id, id: :dailyfeatured_supplier_id %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
