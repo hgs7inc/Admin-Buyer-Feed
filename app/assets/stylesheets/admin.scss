@@ -1,3 +1,65 @@
 // Place all the styles related to the admin controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+#admin1{
+	font-size:16px;
+	margin-top:27px;
+}
+.sidebar-list{
+
+
+   list-style-type: none;
+   height: 65%;
+   position: fixed;
+   padding: 0px;
+   background-color: #ddd;
+}
+h1{
+	font-color:red;
+}
+.sidebar-btn1{
+	display: inline-block;
+    width: 142px;
+    text-align: left;
+}
+
+.sidebar-button1{
+	border-radius:0;
+}
+.cardbutton1{
+	margin-top:15px;
+}
+.cardbutton{
+	margin-right: 19px;
+}
+.searchbtn{
+	width:225px;
+	margin-top:20px;
+}
+.cardhead{
+	border-bottom: 1px solid;
+    border-top: 1px solid;
+    padding: 10px 0px;
+}
+.header{
+   border-bottom: 1px solid;
+}
+.row{
+	margin:15px 0px;
+}
+p{
+	margin-bottom:0px;
+}
+
+
+
+/*article section */
+.article label{
+	margin:10px 0px;
+}
+.btn-success {
+width:20%;
+}
+.newmaterials{
+margin-bottom:114px;
+}
