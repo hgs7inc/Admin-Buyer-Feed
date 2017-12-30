@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Dailyfeatureds</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Headline</th>
+      <th>Description</th>
+      <th>Material</th>
+      <th>Supplier</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @dailyfeatureds.each do |dailyfeatured| %>
+      <tr>
+        <td><%= dailyfeatured.headline %></td>
+        <td><%= dailyfeatured.description %></td>
+        <td><%= dailyfeatured.material %></td>
+        <td><%= dailyfeatured.supplier %></td>
+        <td><%= link_to 'Show', dailyfeatured %></td>
+        <td><%= link_to 'Edit', edit_dailyfeatured_path(dailyfeatured) %></td>
+        <td><%= link_to 'Destroy', dailyfeatured, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Dailyfeatured', new_dailyfeatured_path %>

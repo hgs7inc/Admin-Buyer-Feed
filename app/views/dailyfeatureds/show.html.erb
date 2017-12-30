@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Headline:</strong>
+  <%= @dailyfeatured.headline %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @dailyfeatured.description %>
+</p>
+
+<p>
+  <strong>Material:</strong>
+  <%= @dailyfeatured.material %>
+</p>
+
+<p>
+  <strong>Supplier:</strong>
+  <%= @dailyfeatured.supplier %>
+</p>
+
+<%= link_to 'Edit', edit_dailyfeatured_path(@dailyfeatured) %> |
+<%= link_to 'Back', dailyfeatureds_path %>
