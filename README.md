@@ -1,29 +1,24 @@
 
-# Admin-Feed---Buyer-Feed
-Admin and buyer feed using react and rails framework
-=======
-# README
+Install ruby and rails framework
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby version
 
-Things you may want to cover:
+ruby v2.4.2
+Rails version
 
-* Ruby version
+rails v5.1.4
+Database creation
 
-* System dependencies
+run bundle after cloning the code
+To run rails server
 
-* Configuration
+rails server (or rails s)
+React component creation --
 
-* Database creation
+rails g react:component component_name (run this in terminal)
 
-* Database initialization
+component created will be stored in app/assets/javascripts/components , with component_name.js.jsx
 
-* How to run the test suite
+create your component in component_name.js.jsx file and call the component in the respective app/views/frontend_page_name/index.html.erb
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
+Git commands --> https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
