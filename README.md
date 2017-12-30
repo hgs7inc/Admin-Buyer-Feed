@@ -14,6 +14,8 @@ Database creation
 
 - bundle (run bundle after cloning the code)
 
+- rake db:migrate (after running bundle)
+
 To run rails server
 
 - rails server (or rails s)
